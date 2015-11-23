@@ -5,6 +5,8 @@
  */
 package ed_08;
 
+import ed_08_ex1.*;
+
 /**
  *
  * @author navega
@@ -55,7 +57,9 @@ public class Car implements Comparable<Car> {
         return 1;
     }
 
+    @Override
+    public String toString() {
+        return "Car{" + "brand=" + brand + ", model=" + model + ", hp=" + hp + '}';
+    }
 
-    
-    
 }
